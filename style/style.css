@@ -25,6 +25,14 @@
     align-items: center;
 }
 
+.etoiles-fill {
+    display: flexbox;
+    color: green;
+    font-size: x-large;
+    padding: 0.3rem;
+    align-items: center;
+}
+
 p.size {
     font-size: x-large;
     margin-right: 1rem;
@@ -98,6 +106,8 @@ hr {
 }
 
 .navigation {
+    display: grid;
+    grid-template-columns: 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 32.5%;
     font-family: Montserrat;
 }
 
