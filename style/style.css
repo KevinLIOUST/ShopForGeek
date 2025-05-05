@@ -1,0 +1,33 @@
+/* Importation de la police d'écriture */
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+.delius-regular {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.general {
+    font-family: Delius;
+}
+
+.recherche {
+    font-family: "Delius";
+}
+
+.navigation {
+    font-family: "Delius";
+}
+
+.image {
+
+}
+
+.achat-livraison {
+    font-family: "Delius";
+}
+
+.marques {
+
+}
