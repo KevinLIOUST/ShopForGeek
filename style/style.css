@@ -152,6 +152,7 @@ a.border-hover:hover {
 /* Main */
 
 .slider-images {
+    display: block;
     width: 100%;
     height: 555px;
     margin-top: 1.5rem;
@@ -211,8 +212,17 @@ a.border-hover:hover {
     transform: translateX(-400%);
 }
 
+.icone-livraison {
+    display: block;
+    margin-right: 2rem;
+    font-size: 35px;
+}
+
 .achat-livraison {
+    display: flexbox;
     font-family: Montserrat;
+    border: 3px solid black;
+    justify-content: center;
 }
 
 .marques {
