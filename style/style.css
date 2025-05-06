@@ -195,6 +195,22 @@ a.border-hover:hover {
     background-color: red;
 }
 
+#img2:target .slider-content {
+    transform: translateX(-100%);
+}
+
+#img3:target .slider-content {
+    transform: translateX(-200%);
+}
+
+#img4:target .slider-content {
+    transform: translateX(-300%);
+}
+
+#img5:target .slider-content {
+    transform: translateX(-400%);
+}
+
 .achat-livraison {
     font-family: Montserrat;
 }
