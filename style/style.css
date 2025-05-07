@@ -130,6 +130,7 @@ hr {
 
 a.border-hover:hover {
     border-top: 3px solid red;
+    color: red;
 }
 
 .navbar-decoration-none {
