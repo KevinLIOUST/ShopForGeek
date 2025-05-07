@@ -156,6 +156,10 @@ a.border-hover:hover {
     color: rgb(250, 83, 111)
 }
 
+.text-color-black {
+    color: black;
+}
+
 .img-sfgs-resize {
     image-resolution: 157px 93px;
     margin-left: 0.5rem;
