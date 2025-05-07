@@ -171,6 +171,7 @@ a.border-hover:hover {
 
 .slider-images {
     display: flex;
+    position: relative;
     width: 1410px;
     height: 557px;
     margin: 0 auto;
@@ -222,11 +223,33 @@ a.border-hover:hover {
 }
 
 .slider-nav {
+    display: flex;
     width: 1410px;
-    text-align: center;
-    margin: 0 auto;
+    position: absolute;
+    justify-content: center;
+    align-self: flex-end;
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2.65rem;
+}
+
+.slider-nav-fleche-droite {
+    display: flex;
+    width: 1410px;
+    position: absolute;
+    justify-content: flex-end;
+    align-self: center;
+    font-size: x-large;
+    margin-right: 1.5rem;
+}
+
+.slider-nav-fleche-gauche {
+    display: flex;
+    width: 1410px;
+    position: absolute;
+    justify-content: flex-start;
+    align-self: center;
+    font-size: x-large;
+    padding-left: 1.5rem;
 }
 
 .slider-nav a {
