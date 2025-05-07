@@ -17,6 +17,19 @@
     vertical-align: middle;
 }
 
+.size-Excellent {
+    font-size: 25px;
+    margin-right: 1rem;
+}
+
+.margin-right {
+    margin-right: 8rem;
+}
+
+.margin-left {
+    margin-left: 1rem;
+}
+
 .etoiles {
     display: flexbox;
     background-color: green;
@@ -155,8 +168,8 @@ a.border-hover:hover {
     display: flex;
     width: 1410px;
     height: 557px;
-    margin-top: 1.5rem;
     margin: 0 auto;
+    margin-top: 2rem;
 }
 
 .slider-viewport {
@@ -171,10 +184,36 @@ a.border-hover:hover {
     grid-auto-flow: column;
     transition: 1s all;
 }
+
+.slider-images-marque {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.slider-viewport-marque {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.slider-content-marque {
+    display: flex;
+    grid-auto-flow: column;
+    transition: 1s all;
+}
   
 .slider-content img {
     width: 1410px;
     height: 557px;
+}
+
+.slider-content-marque img {
+    width: 400px;
+    height: 400px;
 }
 
 .slider-nav {
@@ -214,10 +253,59 @@ a.border-hover:hover {
     transform: translateX(-400%);
 }
 
+.slider-nav-marque {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.slider-nav-marque a {
+    display: inline-block;
+    border: 3px solid gray;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0.1rem;
+}
+
+.slider-nav-marque a:hover {
+    background-color: red;
+}
+
+#img2-marque:target .slider-content-marque {
+    transform: translateX(-400px);
+}
+
+#img3-marque:target .slider-content-marque {
+    transform: translateX(-800px);
+}
+
+#img4-marque:target .slider-content-marque {
+    transform: translateX(-1200px);
+}
+
+#img5-marque:target .slider-content-marque {
+    transform: translateX(-1600px);
+}
+
+#img6-marque:target .slider-content-marque {
+    transform: translateX(-2000px);
+}
+
+#img7-marque:target .slider-content-marque {
+    transform: translateX(-2400px);
+}
+
+#img8-marque:target .slider-content-marque {
+    transform: translateX(-2800px);
+}
+
 .icone-livraison {
     display: inline-block;
     margin-right: 2rem;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .achat-livraison {
@@ -229,8 +317,5 @@ a.border-hover:hover {
 .margin-livraison {
     margin-left: 8rem;
     margin-right: 8rem;
-}
-
-.marques {
-    
+    font-size: 12px;
 }
