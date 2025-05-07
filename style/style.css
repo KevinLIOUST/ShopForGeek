@@ -351,3 +351,22 @@ a.border-hover:hover {
 .size-barre-verticale {
     font-size: 75px;
 }
+
+.marques {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 1fr);
+    width: auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 1.5rem;
+    border: 3px solid black;
+    /* overflow: hidden; */
+}
+
+.image-rognee {
+    display: flex;
+    flex-wrap: wrap;
+    /* top: -100px; */
+    /* bottom: -100px; */
+}
