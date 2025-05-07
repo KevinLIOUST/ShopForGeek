@@ -343,7 +343,11 @@ a.border-hover:hover {
 }
 
 .margin-livraison {
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     font-size: 12px;
+}
+
+.size-barre-verticale {
+    font-size: 75px;
 }
